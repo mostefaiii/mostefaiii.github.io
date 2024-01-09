@@ -1,22 +1,28 @@
 <!DOCTYPE html>
+<meta charset="utf-8" />
 <html>
 <head>
+    <title>I Made A Website</title>
 <script>
+
     function buttPress() {
     document.getElementById("demo").innerHTML= "BOO!!"
-    document.getElementById("ghost").src="";
+    document.getElementById("ghost").src="ghost.png";
     }
 </script>
 </head>
 
-<body>
+<header>
 <h1>WIP</h1>
-<p>i'm relearning <b>how</b> to html</p>
+</header>
+
+<body>
+<p>i'm relearning <strong>how</strong> to html</p>
 
 <p id="demo">this is some regular text...</p>
 
 <button type = "button" onclick="buttPress()">what's this?</button>
-<img id="ghost" src="" style="width:100px">
+<img id="ghost" src="" style="width:100px" alt="scary ass ghost">
 
 </body>
 </html>
