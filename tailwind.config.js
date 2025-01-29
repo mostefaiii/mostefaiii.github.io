@@ -9,6 +9,14 @@ export default {
       fontFamily: {
         coustard: ["Coustard", ...fontFamily.sans],
       },
+      animation: {
+        'gradient': 'gradient 8s linear infinite',
+      },
+      keyframes: {
+        'gradient': {
+          to: {'background-position': '200% center'},
+        }
+      },
     },
   },
   plugins: [],
